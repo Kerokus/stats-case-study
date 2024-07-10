@@ -9,10 +9,16 @@
 - Authorized requirements for control of motor vehicle emissions
 - Required that the NAAQS be attained by 1977 at the latest.
 
-Did the clean Air Act of 1970 cause decrease in horsepower of American vehicles?
+Did the clean Air Act of 1970 cause a decrease in horsepower of American vehicles?
 
-# Data
+# Dataset
 
+Shape = (389,9)
+
+Columns = 'mpg', 'cylinders', 'displacement', 'horsepower', 'weight',
+       'acceleration', 'model', 'origin', 'car_name'
+
+Mild cleaning was required to convert strings into numeric and replace all NaNs with a reasonable mean.  Details can be found in aa-notebook-template.ipynb
 
 
 # Exploratory Data Analysis
